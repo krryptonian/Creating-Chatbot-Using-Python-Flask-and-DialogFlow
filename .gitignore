@@ -1,5 +1,3 @@
-credentials/key.json
-
 ### Flask ###
 instance/*
 !instance/.gitignore
