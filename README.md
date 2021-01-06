@@ -1,5 +1,7 @@
 # Creating-Chatbot-Using-Python-Flask-and-DialogFlow
 
+![screenshot](static/images/02.png)
+
 ## PREREQUISITE
 
 Make sure you have installed the following tools.
