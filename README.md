@@ -28,5 +28,5 @@ pip install dialogflow
 6. JSON file will be downloaded to your computer that you will need in the setup sections below.
 
 ### Set up Dialogflow DetectIntent endpoint to be called from the App
-1. Inside root folder, replace the key.json with your own credentials json file. 
+1. Inside root folder, replace the key.json in the credentials folder with your own credentials json file. 
 2. In app.py, Change the GOOGLE_PROJECT_ID = **"<YOUR_PROJECT_ID>"** to your project ID

@@ -26,7 +26,7 @@ def hello_world():
 def chat():
     input_text = request.form['message']
 
-    GOOGLE_AUTHENTICATION_FILE_NAME = "key.json"
+    GOOGLE_AUTHENTICATION_FILE_NAME = "credentials/key.json"
     current_directory = os.path.dirname(os.path.realpath(__file__))
     path = os.path.join(current_directory, GOOGLE_AUTHENTICATION_FILE_NAME)
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = path

@@ -1,8 +1,9 @@
+credentials/key.json
+
 ### Flask ###
 instance/*
 !instance/.gitignore
 .webassets-cache
-key.json
 
 ### Flask.Python Stack ###
 # Byte-compiled / optimized / DLL files
