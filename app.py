@@ -56,12 +56,12 @@ def chat():
         user_input=input_text
     )
     result = MessageToDict(response)
+    print(result)
     if len(result['queryResult']['fulfillmentMessages']) == 2:
         response = {"message": result['queryResult']['fulfillmentText'],
                     "payload": result['queryResult']['fulfillmentMessages'][1]['payload']}
     else:
         response = {"message": result['queryResult']['fulfillmentText'], "payload": None}
-    print(result)
     # response = {"message": result['queryResult']['fulfillmentText'], "payload": None}
     return jsonify(response)
 

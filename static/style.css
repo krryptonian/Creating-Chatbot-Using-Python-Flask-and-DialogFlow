@@ -1,6 +1,5 @@
 html,
 body {
-    font-size: 0.875rem;
     background: #efefef;
     height: 100%;
 }
@@ -222,4 +221,12 @@ body {
 .cm-msg-button {
     clear: both;
     margin-bottom: 70px;
+}
+
+.cm-msg-buttons {
+    margin-bottom: 15px;
+}
+
+.btn-chips {
+    border-radius: 15px;
 }

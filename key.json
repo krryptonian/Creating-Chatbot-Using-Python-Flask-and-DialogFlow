@@ -1,3 +1,12 @@
 {
-  "values": "Copy & Paste you Service Account Key here "
+  "type": "service_account",
+  "project_id": "pizza-ordering-dsik",
+  "private_key_id": "faf7528f9450f0366e82a06c9c316aa62d2bb570",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGxVFRsTl6KBSg\nT74J5rM0TAxXHvidmkAyaeOjg1IsA5vAucBEV8vYYBtj+NEwOiZ1S2DdwOECJNVP\n8xBF6e2Rsdj3K+W5vznvSvOo7Iw7DXHm5UnY3ETy2gTt7MLzSpd1YsecdB5DWcPq\nTBIBoGyOmIOm//z9DNwYdQ3FpwUGm9jCy7onWdSvnF1FQpbDsgvHJxtrMQMj4Fbv\nL1KRdstwaCc0YOiTO2PkLMjmF1SE77trYgr2TXjV3TtHjc3OgJIkFOd/PM6Em5RS\n3FXEJDKrgam+06E8cQkV/UAhOEec6zf8XZpgzM8XMCRQFjwDgtCzwRexM4JxTft6\n1jKS8++tAgMBAAECggEAJzQ3y8MGsR9CojPYKZ/E7KWrMWu8YWlRDCByc4etJ102\n1RZN46zlWbHq9RbYO4jcmPnbCyHFv2SAZhpstT1kS/4l6upPjwk2ZgoEcObm6abH\nNmE25XzcZIG3wy2VbeLiaJapBCSq62HDEG0ciBGaF63hGYkX3tkwd+puYvOEPD8b\nnjGv5JimMYVhXkrgay5U5xlJRDEC9RgrMfzVTIeZGm0tFIqttEBv2OhZQAelxOb3\nB/YLKcGOjfGAvuFgcuuLT03bIp/H+B0G0ErvFgkf4s6Aauqk35Kc4UmfbzJQFVUx\nHNrUqGTx4fryYwAZFVe5d7ZwlO/R2vq1bthShl2QQQKBgQDw9q0vFQz1xi0czqra\nwBPWZ85ArCzMph9AdNjw7fkQqA84odMS06++xn1ywHJqpWxlY1NDLFU63vJ9KPmY\ngu+JoUO1WUbcqgcAgo519FTWO5ILCJ4yWCtHT/H3Msmp6C8Hviqa2kSamkjmJqVE\nl5KQEnGKnR4YN1UOgbmSXApQWQKBgQDTLJ+NNG71muVuQk1zkO6TYONdHQF0/mzU\n10Ma/KK7kwbUeZq+M4+GWhYfHwLzr322drUAb3JGSuOjiJK3XmvLkupW78GHYk3v\nKwQsFOLFhjBv+742Ad8UH/0XFe2o7DQedQVMOdrTgQvBjLHOedNcVCbx5gJYyD2Z\n9Y0/8sgPdQKBgEMY3UaT/QTfBybTYX4CKEP2qdcWWm8t/tvK7bHBAi6iLYLehNDk\nQzbDPKFcdz+9Cn789m1pBd6bwDgb1cyjASJ41krELlg5vDNnJ1YvEASLl/Iclzh7\nlqmH2F+2M7NtJNNqH6D5EEtglNYJgtGjxzr498baU0v49GVSuCLKIFEZAoGBAJvq\nopMbV6G3kBZslcryA3SFYNnrBJxhDfHITh+q0Gw2DiDq+Dnez+Weth6cQw2xUNxb\noSCFKJaFzLV9rPX+nRBdlPBDbVyMVIZ1+Eqj0RuODE1iTfqKPy8Yv0FAS40heQnT\n1OmG/e6TpR5uxwlwIYJWD7si3DC5B+KYzoWct+HRAoGATStLg2P3BaHrfzOUsMTt\naZ0xqXYfRWJic+5Y/lAFIo3UcUh9TV7fd66K2+7oRaBgvkq/MgVDr92iyQLdQnHK\n2I3e5+ktkBL6vc55sFVgIOOzurOVxm43Lg2axavkxqfxAs868mwQiXnO7y+kUkWA\n517VlPJtAp0V2YhE4xpbVl8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-9@pizza-ordering-dsik.iam.gserviceaccount.com",
+  "client_id": "106580848420276880606",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-9%40pizza-ordering-dsik.iam.gserviceaccount.com"
 }

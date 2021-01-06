@@ -11,32 +11,44 @@ $(function () {
     });
 
     function submit_message(message) {
-        $.post('/chat', {message: message}, handle_response);
+        const sendRequest = $.post('/chat', {message: message});
 
-        function handle_response(data) {
+        sendRequest.done(function (data) {
             console.log(data);
-            // append the bot repsonse to the div
             generate_message(data.message, 'user');
-        }
+            if (data && data.payload !== null) {
+                const buttons = data.payload.suggestion_chips;
+                let srtButton = '';
+                buttons.map((button) => (
+                    srtButton += '<button type="button" class="btn btn-outline-secondary mr-1 btn-chips" onclick="$(\'#chat-input\').val(\'' + button + '\');$(\'#chat-submit\').click();">' + button + '</button>'
+                ))
+                generate_message(srtButton, 'button')
+            }
+        });
+
     }
 
     function generate_message(msg, type) {
+        const chatLogs = $('.chat-logs');
         INDEX++;
         let str = '';
         str += "<div id='cm-msg-" + INDEX + '\' class="chat-msg ' + type + '">';
-        // str += '<span class="msg-avatar">';
-        // str += '<img src="/static/images/01.jpg" alt="Profile photo">';
-        // str += '</span>';
-        str += '<div class="cm-msg-text">';
-        str += msg;
+        if (type !== 'button') {
+            str += '<div class="cm-msg-text">';
+            str += msg;
+            str += '</div>';
+        } else {
+            str += '<div class="cm-msg-buttons">';
+            str += msg;
+            str += '</div>';
+        }
         str += '</div>';
-        str += '</div>';
-        $('.chat-logs').append(str);
+        chatLogs.append(str);
         $('#cm-msg-' + INDEX).hide().fadeIn(300);
         if (type === 'self') {
             $('#chat-input').val('');
         }
-        $('.chat-logs').stop().animate({scrollTop: $('.chat-logs')[0].scrollHeight}, 1000);
+        chatLogs.stop().animate({scrollTop: chatLogs[0].scrollHeight}, 1000);
     }
 
     $(document).delegate('.chat-btn', 'click', function () {
