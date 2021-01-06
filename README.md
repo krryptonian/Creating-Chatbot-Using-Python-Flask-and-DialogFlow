@@ -1,6 +1,8 @@
 # Creating-Chatbot-Using-Python-Flask-and-DialogFlow
 
-![screenshot](static/images/02.png)
+<p align="center">
+  <img src="static/images/02.png" title="screenshot">
+</p>
 
 ## PREREQUISITE
 
