@@ -1,4 +1,4 @@
-# Creating-Chatbot-Using-Python-Flask-and-DialogFlow
+# Creating Chatbot Using Python Flask & DialogFlow
 
 <p align="center">
   <img src="static/images/02.png" title="screenshot">
